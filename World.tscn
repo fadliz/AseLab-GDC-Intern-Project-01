@@ -7,7 +7,15 @@
 [node name="World" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 4 )]
+speed = 496
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
 
 [node name="Enemy" parent="." instance=ExtResource( 2 )]
 
 [node name="InteracObject" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, -112 )
+
+[node name="InteracObject2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 29, -113 )
